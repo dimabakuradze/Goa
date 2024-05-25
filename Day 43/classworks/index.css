@@ -1,0 +1,91 @@
+#mtavari{
+    text-align: center;
+    font-size: x-large;
+}
+
+
+#background{
+    background-color: aqua;
+}
+
+#nela{
+    text-align: left;
+
+}
+
+#xello{
+    font-weight: 100;
+}
+
+#project{
+    width: 200px;;
+    height: 30px;
+}
+
+#Gender{
+    width: 200px;
+    height: 30px;
+}
+
+#birthday{
+    width: 200px;
+    height: 30px;
+}
+
+#End{
+    width: 200px;
+    height: 30px;
+}
+
+#HIgh-hello{
+    text-align: right;
+}
+
+#nela-zviadi{
+    width: 400px;
+    height: 70px;
+}
+
+
+
+.submit-container {
+    display: flex;
+    justify-content: center;
+}
+
+#Submit {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+#Submit:hover {
+    background-color: #45a049;
+}
+
+.clear-container{
+    display: flex;
+    justify-content:flex-start
+}
+
+
+.button-container {
+    text-align: left;
+}
+
+.button-container {
+    text-align: center;
+}
+
+
+ #Clear {
+    background-color: blue;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    margin-left: 10px; 
+}
+
