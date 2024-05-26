@@ -6,16 +6,13 @@
 
 #background{
     background-color: aqua;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+    
+  
 
-#nela{
-    text-align: left;
-
-}
-
-#xello{
-    font-weight: 100;
-}
 
 #project{
     width: 200px;;
@@ -88,4 +85,3 @@
     cursor: pointer;
     margin-left: 10px; 
 }
-

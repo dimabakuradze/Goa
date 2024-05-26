@@ -1,0 +1,19 @@
+#Table {
+    margin: 0 auto;
+    border-collapse: collapse;
+    height: 70px;
+    
+}
+
+
+
+#Troma{
+    color: white;
+    background-color: green;
+    text-align: center;
+}
+
+
+#Trima{
+    text-align: center;
+}

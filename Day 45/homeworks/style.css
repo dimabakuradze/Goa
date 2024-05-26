@@ -1,0 +1,19 @@
+#name {
+    border: none;
+    text-align: center;
+    height: 135px;
+}
+
+#surname{
+    color: white;
+    background-color: green;
+    height: 32px;
+    border: none;
+}
+
+#dima{
+    background-color: #4CAF50;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
