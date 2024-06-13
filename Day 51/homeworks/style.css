@@ -1,0 +1,33 @@
+.main{
+    text-align: center;
+    border-radius: 5px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top:15px;
+    padding-bottom: 15px;
+    cursor: pointer;
+    margin-top: 10px;
+    width: 150px;
+    border: none;
+    margin: auto;
+    margin-top: 15px;
+
+
+}
+
+.Div{
+    text-align: left;
+    border-radius: 5px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top:15px;
+    padding-bottom: 15px;
+    cursor: pointer;
+    margin-top: 10px;
+    width: 150px;
+    border: none;
+    margin: auto;
+    margin-top: 15px;
+    color: red;
+
+}
