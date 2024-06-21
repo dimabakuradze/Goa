@@ -1,0 +1,11 @@
+.dima123 {
+    width: 300px;
+    height: 300px;
+    padding: 20px 20px;
+    margin-top: 10px 30px;
+    border-top: 5px solid #333;
+    border-right: 10px solid #666;
+    border-bottom: 15px solid #999;
+    border-left: 8px solid #CCC;
+    box-sizing: border-box; 
+  }

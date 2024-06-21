@@ -1,0 +1,25 @@
+.dima{
+    width: 400px;
+    height: 200px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border: 5px solid red;
+    background-color: yellow;
+    color: black;
+    margin-top: 50px;
+    margin-right: 15px;
+    margin-bottom: 50px;
+    margin-left: 15px;
+    text-align: center;
+    
+}
+
+.dima:hover{
+    color: red;
+}
+
+.dima:active{
+    color: green;
+}

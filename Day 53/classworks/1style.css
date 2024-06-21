@@ -1,0 +1,23 @@
+.hello{
+    color: blue;
+    border-radius: 5px;
+    border: none;
+    padding-top: 15px;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-bottom: 15px;
+    text-align: center;
+
+}
+
+
+
+.hello:hover{
+    color: red;
+    opacity: 0.8;
+}
+
+.hello:active{
+    color: green;
+
+}
