@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+   font-family: 'Poppins', sans-serif;
+}
+
+.main{
+    display: flex;
+    justify-content:center;
+    flex-direction: column;
+    gap: 31px;
+    background-color: rgb(51, 49, 49);
+    color: white;
+    border-radius: 25px;
+    height: 675px;
+    width: 620px;
+    margin-left: 650px;
+    margin-top: 125px;
+    padding-bottom:24px;
+    padding-left: 55px;
+
+}
+
+.fdiv img{
+   border-radius: 50%;
+   width: 100px;
+   gap: 25px;
+   border: solid rgb(79, 89, 92) 5px;
+}
+
+
+.sdiv{
+background-image: linear-gradient(142deg, #8C51D6 0%, #DE8B5D 43%);
+ font-family: 'Martian Mono', monospace;
+color: #DE8B5D;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+font-size: small;
+
+}
+
+
+.tdiv{
+    font-size:50px;
+    font-family: 'Martian Mono', monospace;
+}
+
+
+.hello{
+    width: 335px;
+    text-align: left;
+    transition: 0.25s;
+}
+
+.mate{
+    padding-bottom: 1;
+}
+
+.dima button{
+    background-color: #DE8B5D;
+    color: #FFFFFF;
+    border: none;
+    width: 10.875rem;
+    height: 3.625rem;
+    border-radius: 2.5rem;
+    background-image: linear-gradient(243deg, #8C51D6 0%, rgba(222, 139, 93, 0.008) 74%);
+    gap:55px;
+    transition: 1.5s;
+}
+
+i{
+    margin-left: 15px;
+}
+
+
+hr{
+    color: grey;
+}
+
+.stick{
+    font-size: 19px;
+    margin-bottom: 5px;
+    color: white;
+    cursor: pointer;
+    transition: 1.5s;
+}
+
+.stick:hover{
+    color: red;
+    
+}
+
+

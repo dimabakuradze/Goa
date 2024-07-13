@@ -5,84 +5,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
-    <style>
-        /* Add your custom CSS here or link an external stylesheet */
-        * {
-            padding: 0;
-            margin: 0;
-            box-sizing: border-box;
-        }
-
-        body {
-            background-color: grey;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100vh; /* Ensures the body takes up the full viewport height */
-        }
-
-        .dima {
-            background-color: white;
-            border-radius: 25px;
-            width: 800px;
-            height: 600px;
-            display: flex;
-            flex-direction: row; /* Change to row to align items horizontally */
-            justify-content: space-around; /* Adjust spacing between image and form */
-            align-items: center;
-            padding: 20px; /* Add padding for spacing inside the container */
-        }
-
-        img {
-            width: 300px;
-            height: 400px;
-            /* Adjust margin-right to move the image to the left */
-            margin-right: 20px; /* You can adjust this value as needed */
-        }
-
-        .form-now {
-            text-align: center;
-        }
-
-        .col-lg-7 {
-            /* Adjust width of the form container */
-            width: 100%; /* Ensures the form takes up the remaining space */
-        }
-
-        .form-control {
-            width: 100%; /* Make form inputs full width */
-            margin-bottom: 10px; /* Add spacing between form inputs */
-        }
-
-        .btn1 {
-            width: 100%; /* Make button full width */
-        }
-    </style>
 </head>
 <body>
-    <section class="dima">
-        <div class="container">
-            <div class="row no-gutters">
-                <div class="col-lg-5">
-                    <img src="Capture1.PNG" class="img-fluid" alt="">
-                </div>
-                <div class="col-lg-7">
-                    <form>
-                        <div class="form-now">
-                            <input type="email" class="form-control" placeholder="Email address">
-                        </div>
-                        <div class="form-now">
-                            <input type="password" class="form-control" placeholder="Password">
-                        </div>
-                        <div class="form-now">
-                            <button type="submit" class="btn1">Sign in</button>
-                        </div>
-                        <a href="#">Forgot password</a>
-                        <p>Don't have an account? <a href="#">Register here</a></p>
-                    </form>
-                </div>
-            </div>
+    <div class="parent">
+        <div class="image-div"></div>
+        <div class="form-div">
+            <form action="">
+                <h2>Sign in</h2>
+                <input type="email" placeholder="E-mail address * " name="Email" required>
+                <input type="password" placeholder="password *" name="password" required>
+                <a href="#">Forgot password</a>
+                <button type="submit">Sign in</button>
+                <a href="#">Dont have an account? sign up</a>
+            </form>
         </div>
-    </section>
+    </div>
 </body>
 </html>

@@ -1,0 +1,35 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+.parent{
+    width: 600px;
+    height: 400px;
+    border-radius: 30px;
+
+    background-image: url(./Capture5.PNG);
+    background-size: cover;
+    background-position: bottom;
+
+    margin-left: 630px;
+    margin-top: 250px;
+    overflow: hidden;
+    box-shadow: 5px 5px 30px black;
+}
+
+.child{
+    padding-top: 140px;
+    color: white;
+    text-align: center;
+}
+
+.child h1{
+    font-size: 70px;
+}
+
+.child p{
+    font-size: 26px;
+}

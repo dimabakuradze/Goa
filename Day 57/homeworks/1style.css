@@ -15,6 +15,7 @@ body{
 }
 
 
+
 .parent{
     width: 1200px;
     height: 800px;
@@ -27,12 +28,10 @@ body{
     width: 65%;
 }
 
-
 .image-div{
     background-image: url(./Capture1.PNG);
     background-size: cover;
 }
-
 
 .form-div{
     display: flex;
@@ -50,37 +49,43 @@ body{
 }
 
 input{
-    width: 100%;
     padding: 20px 10px;
     border: none;
-    border-radius: 17px;
+    border-radius: 5px;
     outline: none;
 }
+
+
 
 
 button{
     width: 100%;
     padding: 20px 10px;
-    border-radius: 17px;
+    border-radius: 5px;
     background-color: rgb(50, 120, 231);
     color: aliceblue;
     border: none;
 }
 
+.mariam{
+    text-align: center;
+    display: flex;
+    justify-content: end;
+    flex-direction: row;
+}
+
+.icons{
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    margin-bottom: 400px;
+    gap: 35px;
+}
+
+p{
+    text-align: center;
+}
 
 h2{
     text-align: center;
-    font-size: 40px;
-}
-
-input, button{
-    font-size: 18px;
-}
-
-
-a{
-    text-decoration: none;
-    font-size: 17px;
-    width: 100%;
-    text-align: end;
 }
