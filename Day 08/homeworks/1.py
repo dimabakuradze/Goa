@@ -24,10 +24,3 @@ elif  Age >= 18:
 
 else:
   print("your not an adult")
-
-
-
-
-
-
-

@@ -1,0 +1,1 @@
+# patoni zauris gakvetilili
