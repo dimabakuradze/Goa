@@ -1,0 +1,1 @@
+# chanaweri gvqonda sayurebeli da proeqti
