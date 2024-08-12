@@ -1,15 +1,15 @@
-age = int(input("შემოიტანე შენი ასაკი: "))
+Age = int(input("შემოიტანე შენი ასაკი: "))
 
-if age <= 0 or age > 100:
+if Age <= 0 or Age > 100:
     print("არის მოხუცი")
 
-elif age <= 12:
+elif Age <= 12:
     print("ბავშვი")
 
-elif age <= 18:
+elif Age <= 18:
     print("თინეიჯერი")
 
-elif age <= 60:
+elif Age <= 60:
     print("სრულწლოვანი")
 
 else:
